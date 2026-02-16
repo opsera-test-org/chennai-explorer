@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chenaiexpo
+  namespace: opsera-chenaiexpo-dev
+  labels:
+    environment: dev
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        environment: dev
+    spec:
+      containers:
+      - name: chenaiexpo
+        env:
+        - name: ENVIRONMENT
+          value: "dev"

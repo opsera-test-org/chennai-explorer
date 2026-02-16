@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: chenaiexpo
+  namespace: opsera-chenaiexpo-dev
+  labels:
+    app: chenaiexpo
+    tenant: opsera
+spec:
+  type: ClusterIP
+  selector:
+    app: chenaiexpo
+  ports:
+  - port: 80
+    targetPort: 8080
+    protocol: TCP
+    name: http

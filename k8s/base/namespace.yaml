@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: opsera-chenaiexpo-dev
+  labels:
+    app: chenaiexpo
+    tenant: opsera
+    environment: dev
+    managed-by: argocd
