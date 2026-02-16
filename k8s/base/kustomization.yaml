@@ -6,6 +6,7 @@ resources:
 - serviceaccount.yaml
 - deployment.yaml
 - service.yaml
+- ingress.yaml
 
 images:
 - name: PLACEHOLDER_ECR_URI
