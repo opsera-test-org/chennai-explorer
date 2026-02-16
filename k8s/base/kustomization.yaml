@@ -10,4 +10,4 @@ resources:
 images:
 - name: 792373136340.dkr.ecr.us-west-2.amazonaws.com/opsera-chenaiexpo
   newName: 792373136340.dkr.ecr.us-west-2.amazonaws.com/opsera-chenaiexpo
-  newTag: latest
+  newTag: 152294a-20260216102227
