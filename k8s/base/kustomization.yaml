@@ -11,4 +11,4 @@ resources:
 images:
 - name: PLACEHOLDER_ECR_URI
   newName: 792373136340.dkr.ecr.us-west-2.amazonaws.com/opsera-chenaiexpo
-  newTag: 5f76ff9-20260216103054
+  newTag: 73419f3-20260216103612
