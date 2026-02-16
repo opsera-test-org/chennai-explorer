@@ -25,6 +25,17 @@
 
 ---
 
+## 🌐 Application URL
+
+**Live Application:**  
+https://chenaiexpo-dev.agent.opsera.dev
+
+**Status:** Deploying (available in 2-3 minutes)  
+**SSL Certificate:** Auto-provisioned by Let's Encrypt  
+**Ingress Controller:** NGINX
+
+---
+
 ## 🚀 Infrastructure Created
 
 ### AWS Resources
