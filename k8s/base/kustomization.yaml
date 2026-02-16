@@ -8,6 +8,6 @@ resources:
 - service.yaml
 
 images:
-- name: PLACEHOLDER_ECR_URI
-  newName: PLACEHOLDER_ECR_URI
+- name: 792373136340.dkr.ecr.us-west-2.amazonaws.com/opsera-chenaiexpo
+  newName: 792373136340.dkr.ecr.us-west-2.amazonaws.com/opsera-chenaiexpo
   newTag: latest
